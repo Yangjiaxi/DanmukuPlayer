@@ -1,0 +1,33 @@
+o.insertDanmuku = function insertDanmuku (obj) //发送弹幕
+o.loadStorage = function ()  //从localstorage读取本地数据
+o.bindDanmukuPanelPosition = function () //绑定按键->弹幕位置
+o.bindDanmukuPanelColor = function () //绑定按键->弹幕颜色
+o.bindDanmukuPanelSpeed = function () //绑定按键->弹幕速度
+o.danmukuFresh = function (T)  //通过计时器刷新弹幕，获取需要发送的弹幕
+o.formatShoot = function formatShoot (obj) //立刻发送弹幕
+o.shootDanmuku = function () //绑定按键->发送
+o.toggleDanmukuPanel = function toggleDanmukuPanel () //绑定按键->打开弹幕设置面板
+o.seekQueue = function () //在点击进度条跳转之后重新载入弹幕池
+o.toggleDanmuku = function () //按键绑定->打开/关闭弹幕
+o.videoEnd = function () //事件绑定->视频播放结束
+o.toggleFullScreenIcon = function () //事件绑定->切换全屏导致按钮图标的变化
+o.toggleFullScreen = function () //按键绑定->切换全屏
+o.setVolume = function (e) //按键绑定->设置音量
+o.videoMute = function () //按键绑定->静音
+o.videoSeek = function (e) //按键绑定->进度条跳转
+o.toTwo = function (val) //数字补齐为两位
+o.initDuration = function () //初始化时间戳
+o.updateProgressBar = function updateProgressBar () //更新进度条及时间戳
+o.videoPlay = function videoPlay () //视频播放
+o.videoPause = function () //视频暂停
+o.togglePlay = function () //切换视频播放/暂停
+o.freshIDBlock = function () //点击ID方块后更换样式
+o.getLeft = function (e)  //思想获得到元素距离屏幕左边的精确值
+o.getTop = function (e) //获得到元素距离屏幕上边的精确值
+o.sibilings = function (el) //返回el的所有同胞[轮子]
+
+o.player  //播放器对象，各种绑定及初始化操作
+function playerInitAll () //初始化所有播放器
+
+
+

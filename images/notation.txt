@@ -1,0 +1,12 @@
+播放       play
+暂停       pause
+音量.大    v_up
+音量.小    v_down
+静音       mute
+弹幕->开   danmu
+弹幕->关   no_danmu
+全屏       full
+退出全屏   no_full
+打开弹幕面板 panel_on
+关闭弹幕面板 panel_off
+关闭迷你播放器 close
